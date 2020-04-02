@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Historia{% endblock %}
+
+{% block content %}
+<section class="page-section about-heading">
+  <div class="container">
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/about.jpg' %}" alt="">
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Tradición familiar </span>
+              <span class="section-heading-lower">Nuestra historia</span>
+            </h2>
+            <p>La técnica del arenado o sableado es uno de los métodos ultilizados en la pastelería para lograr la estructura que caracteriza a las masas quebradas o masas sablée, que son quebradizas, no tienen volumen y que tanta felicidad nos dan en forma de tartaletas, pies y galletas.</p>
+            <p>El propósito de la técnica del arenando o sableado es impermeabilizar las partículas de la harina envolviéndolas con grasa antes de que entren en contacto con el líquido –esto es, mezclando rápidamente la harina con la mantequilla, lo que forma esa arena que le da el nombre a la técnica- para evitar que se active la proteína del gluten y los granos de almidón presentes en la harina de trigo y que son los responsables de la elasticidad de las otras masas, pero que en este momento no deseamos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
